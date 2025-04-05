@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "RES-001",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-2130",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-04-16T00:59:13.063657",
+      "fechaLlegada": "2025-04-16T03:59:13.063657",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 283,
+        "matricula": "REG-2436"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "29093046",
+        "asiento": "11D",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3212.58,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-03-14T00:59:13.063657",
+    "codigoReserva": "DTYXQ9"
+  },
+  {
+    "id": "RES-002",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-2782",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-04-11T00:59:13.063835",
+      "fechaLlegada": "2025-04-11T12:59:13.063835",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 266,
+        "matricula": "REG-5877"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "67680632",
+        "asiento": "24C",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3488.1,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-02-19T00:59:13.063835",
+    "codigoReserva": "5UK0NI"
+  },
+  {
+    "id": "RES-003",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-8964",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-06-26T00:59:13.063924",
+      "fechaLlegada": "2025-06-26T12:59:13.063924",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 205,
+        "matricula": "REG-5828"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "27634300",
+        "asiento": "1D",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 153.84,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-17T00:59:13.063924",
+    "codigoReserva": "729QL5"
+  },
+  {
+    "id": "RES-004",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-3009",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-06-29T00:59:13.063978",
+      "fechaLlegada": "2025-06-29T03:59:13.063978",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 253,
+        "matricula": "REG-8822"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "18677677",
+        "asiento": "13B",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-211172",
+      "monto": 1291.7,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-06-10T00:59:13.063978",
+    "codigoReserva": "S1HYR7"
+  },
+  {
+    "id": "RES-005",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-5417",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-04-14T00:59:13.064040",
+      "fechaLlegada": "2025-04-14T05:59:13.064040",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 276,
+        "matricula": "REG-9583"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "80714600",
+        "asiento": "20D",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3076.69,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-18T00:59:13.064040",
+    "codigoReserva": "90LM02"
+  },
+  {
+    "id": "RES-006",
+    "categoria": "Aventura",
+    "vuelo": {
+      "numero": "FL-6753",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-04-12T00:59:13.064088",
+      "fechaLlegada": "2025-04-12T09:59:13.064088",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 164,
+        "matricula": "REG-2967"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "32983814",
+        "asiento": "30A",
+        "clase": "Aventura"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 1174.57,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-03-03T00:59:13.064088",
+    "codigoReserva": "N2H8E2"
+  },
+  {
+    "id": "RES-007",
+    "categoria": "Negocios",
+    "vuelo": {
+      "numero": "FL-7165",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-07-02T00:59:13.064146",
+      "fechaLlegada": "2025-07-02T08:59:13.064146",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 248,
+        "matricula": "REG-1454"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "83375249",
+        "asiento": "17D",
+        "clase": "Negocios"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 155.28,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-10T00:59:13.064146",
+    "codigoReserva": "3HM14S"
+  },
+  {
+    "id": "RES-008",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-2137",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-05-19T00:59:13.064198",
+      "fechaLlegada": "2025-05-19T09:59:13.064198",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 221,
+        "matricula": "REG-1648"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "57431078",
+        "asiento": "23A",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-705526",
+      "monto": 3208.42,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-03-30T00:59:13.064198",
+    "codigoReserva": "5LKK0A"
+  },
+  {
+    "id": "RES-009",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-9540",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-07-14T00:59:13.064256",
+      "fechaLlegada": "2025-07-14T10:59:13.064256",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 297,
+        "matricula": "REG-5426"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "28475736",
+        "asiento": "16C",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 322.93,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-06-11T00:59:13.064256",
+    "codigoReserva": "OWW5R2"
+  },
+  {
+    "id": "RES-010",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-5209",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-04-13T00:59:13.065395",
+      "fechaLlegada": "2025-04-13T11:59:13.065395",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 162,
+        "matricula": "REG-6163"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "24440449",
+        "asiento": "17A",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 2141.89,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-02-14T00:59:13.065395",
+    "codigoReserva": "3AUQ4G"
+  },
+  {
+    "id": "RES-011",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-8802",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-05-04T00:59:13.065455",
+      "fechaLlegada": "2025-05-04T06:59:13.065455",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 251,
+        "matricula": "REG-6735"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "79028914",
+        "asiento": "7D",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 975.83,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-26T00:59:13.065455",
+    "codigoReserva": "HJZ0OW"
+  },
+  {
+    "id": "RES-012",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-3818",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-04-16T00:59:13.065527",
+      "fechaLlegada": "2025-04-16T08:59:13.065527",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 209,
+        "matricula": "REG-6513"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "14937135",
+        "asiento": "28C",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 1164.94,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-26T00:59:13.065527",
+    "codigoReserva": "V2COI7"
+  },
+  {
+    "id": "RES-013",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-7017",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-27T00:59:13.065635",
+      "fechaLlegada": "2025-05-27T06:59:13.065635",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 283,
+        "matricula": "REG-3297"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "19147704",
+        "asiento": "14A",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-235594",
+      "monto": 2827.23,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-14T00:59:13.065635",
+    "codigoReserva": "V8MLW2"
+  },
+  {
+    "id": "RES-014",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-1221",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-07-02T00:59:13.065691",
+      "fechaLlegada": "2025-07-02T02:59:13.065691",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 285,
+        "matricula": "REG-7689"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "14191549",
+        "asiento": "9B",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-369545",
+      "monto": 392.09,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-28T00:59:13.065691",
+    "codigoReserva": "7CEH56"
+  },
+  {
+    "id": "RES-015",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-5392",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-05-31T00:59:13.065737",
+      "fechaLlegada": "2025-05-31T06:59:13.065737",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 225,
+        "matricula": "REG-6308"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "40751014",
+        "asiento": "6C",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-445246",
+      "monto": 2978.65,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-09T00:59:13.065737",
+    "codigoReserva": "8UG1XU"
+  },
+  {
+    "id": "RES-016",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-6848",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-08T00:59:13.065778",
+      "fechaLlegada": "2025-05-08T08:59:13.065778",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 153,
+        "matricula": "REG-6516"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "39917110",
+        "asiento": "11B",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2708.86,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-12T00:59:13.065778",
+    "codigoReserva": "KF04Y4"
+  },
+  {
+    "id": "RES-017",
+    "categoria": "Aventura",
+    "vuelo": {
+      "numero": "FL-1357",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-28T00:59:13.065819",
+      "fechaLlegada": "2025-05-28T11:59:13.065819",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 200,
+        "matricula": "REG-7262"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "23784549",
+        "asiento": "17B",
+        "clase": "Aventura"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 399.42,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-29T00:59:13.065819",
+    "codigoReserva": "RCIQOG"
+  },
+  {
+    "id": "RES-018",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-6559",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-06-26T00:59:13.065861",
+      "fechaLlegada": "2025-06-26T06:59:13.065861",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 177,
+        "matricula": "REG-6643"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "46251570",
+        "asiento": "3B",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-369024",
+      "monto": 594.68,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-06-10T00:59:13.065861",
+    "codigoReserva": "ZYX1EG"
+  },
+  {
+    "id": "RES-019",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-6559",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-05-29T00:59:13.065908",
+      "fechaLlegada": "2025-05-29T02:59:13.065908",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 204,
+        "matricula": "REG-2306"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "23270773",
+        "asiento": "14A",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-467094",
+      "monto": 565.12,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-06T00:59:13.065908",
+    "codigoReserva": "FQYT1F"
+  },
+  {
+    "id": "RES-020",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-7916",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-04-15T00:59:13.065954",
+      "fechaLlegada": "2025-04-15T10:59:13.065954",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 231,
+        "matricula": "REG-6756"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "75633488",
+        "asiento": "11D",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 997.72,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-26T00:59:13.065954",
+    "codigoReserva": "I7OS6G"
+  },
+  {
+    "id": "RES-021",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-9702",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-06-21T00:59:13.065999",
+      "fechaLlegada": "2025-06-21T08:59:13.065999",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 238,
+        "matricula": "REG-7528"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "13738240",
+        "asiento": "8A",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-563396",
+      "monto": 545.11,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-09T00:59:13.065999",
+    "codigoReserva": "DGNO82"
+  },
+  {
+    "id": "RES-022",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-2401",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-07-05T00:59:13.067635",
+      "fechaLlegada": "2025-07-05T12:59:13.067635",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 247,
+        "matricula": "REG-7928"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "22467818",
+        "asiento": "18B",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-398600",
+      "monto": 2292.58,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-27T00:59:13.067635",
+    "codigoReserva": "1VWKJD"
+  },
+  {
+    "id": "RES-023",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-9514",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-06-24T00:59:13.067691",
+      "fechaLlegada": "2025-06-24T12:59:13.067691",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 169,
+        "matricula": "REG-6088"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "39287010",
+        "asiento": "3D",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 923.16,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-06-06T00:59:13.067691",
+    "codigoReserva": "494KEB"
+  },
+  {
+    "id": "RES-024",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-1950",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-08T00:59:13.067795",
+      "fechaLlegada": "2025-06-08T05:59:13.067795",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 203,
+        "matricula": "REG-7288"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "77874829",
+        "asiento": "3D",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-972293",
+      "monto": 977.83,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-15T00:59:13.067795",
+    "codigoReserva": "KKYJ46"
+  },
+  {
+    "id": "RES-025",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-4846",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-06-01T00:59:13.067847",
+      "fechaLlegada": "2025-06-01T05:59:13.067847",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 223,
+        "matricula": "REG-1848"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "14041613",
+        "asiento": "12A",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3281.85,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-11T00:59:13.067847",
+    "codigoReserva": "YWGD5N"
+  },
+  {
+    "id": "RES-026",
+    "categoria": "Negocios",
+    "vuelo": {
+      "numero": "FL-5455",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-07-05T00:59:13.067910",
+      "fechaLlegada": "2025-07-05T08:59:13.067910",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 214,
+        "matricula": "REG-7182"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "17686104",
+        "asiento": "14B",
+        "clase": "Negocios"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-839800",
+      "monto": 2971.75,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-24T00:59:13.067910",
+    "codigoReserva": "5XHMCF"
+  },
+  {
+    "id": "RES-027",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-8053",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-04-06T00:59:13.067960",
+      "fechaLlegada": "2025-04-06T03:59:13.067960",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 234,
+        "matricula": "REG-7335"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "54864241",
+        "asiento": "18D",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-696252",
+      "monto": 3091.87,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-02-20T00:59:13.067960",
+    "codigoReserva": "8MXD47"
+  },
+  {
+    "id": "RES-028",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-6010",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-05-06T00:59:13.068007",
+      "fechaLlegada": "2025-05-06T12:59:13.068007",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 245,
+        "matricula": "REG-7661"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "26492582",
+        "asiento": "5D",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-199627",
+      "monto": 2699.59,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-20T00:59:13.068007",
+    "codigoReserva": "AH8Q7W"
+  },
+  {
+    "id": "RES-029",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-5387",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-06-01T00:59:13.068051",
+      "fechaLlegada": "2025-06-01T03:59:13.068051",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 177,
+        "matricula": "REG-8632"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "17515748",
+        "asiento": "10C",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-500511",
+      "monto": 554.97,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-26T00:59:13.068051",
+    "codigoReserva": "SWZWVT"
+  },
+  {
+    "id": "RES-030",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-4944",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-05-16T00:59:13.068107",
+      "fechaLlegada": "2025-05-16T02:59:13.068107",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 279,
+        "matricula": "REG-9311"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "12285976",
+        "asiento": "5C",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 3340.67,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-09T00:59:13.068107",
+    "codigoReserva": "WPH8JK"
+  },
+  {
+    "id": "RES-031",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-1240",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-04-28T00:59:13.068579",
+      "fechaLlegada": "2025-04-28T10:59:13.068579",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 174,
+        "matricula": "REG-7108"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "54270077",
+        "asiento": "19A",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 838.98,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-20T00:59:13.068579",
+    "codigoReserva": "9L26TY"
+  },
+  {
+    "id": "RES-032",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-1605",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-05-05T00:59:13.068673",
+      "fechaLlegada": "2025-05-05T08:59:13.068673",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 248,
+        "matricula": "REG-4846"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "56116445",
+        "asiento": "4D",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-296426",
+      "monto": 2735.83,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-16T00:59:13.068673",
+    "codigoReserva": "RR7AQG"
+  },
+  {
+    "id": "RES-033",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-2583",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-05-25T00:59:13.068723",
+      "fechaLlegada": "2025-05-25T10:59:13.068723",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 275,
+        "matricula": "REG-6206"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "91203782",
+        "asiento": "19B",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3333.2,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-28T00:59:13.068723",
+    "codigoReserva": "2BPO80"
+  },
+  {
+    "id": "RES-034",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-8391",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-06-19T00:59:13.068767",
+      "fechaLlegada": "2025-06-19T07:59:13.068767",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 191,
+        "matricula": "REG-1810"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "93621145",
+        "asiento": "7B",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 2900.47,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-18T00:59:13.068767",
+    "codigoReserva": "WHFX9A"
+  },
+  {
+    "id": "RES-035",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-3363",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-07-02T00:59:13.068812",
+      "fechaLlegada": "2025-07-02T04:59:13.068812",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 205,
+        "matricula": "REG-1735"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "66595766",
+        "asiento": "16D",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 798.29,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-06-21T00:59:13.068812",
+    "codigoReserva": "3KBIF2"
+  },
+  {
+    "id": "RES-036",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-2621",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-09T00:59:13.069578",
+      "fechaLlegada": "2025-06-09T08:59:13.069578",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 212,
+        "matricula": "REG-6500"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "64833501",
+        "asiento": "10B",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-867185",
+      "monto": 330.29,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-18T00:59:13.069578",
+    "codigoReserva": "L0V55F"
+  },
+  {
+    "id": "RES-037",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-8191",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-06-01T00:59:13.069649",
+      "fechaLlegada": "2025-06-01T09:59:13.069649",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 286,
+        "matricula": "REG-7138"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "75629568",
+        "asiento": "13B",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-393707",
+      "monto": 228.75,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-03T00:59:13.069649",
+    "codigoReserva": "AM8SQ2"
+  },
+  {
+    "id": "RES-038",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-6789",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-06-21T00:59:13.069782",
+      "fechaLlegada": "2025-06-21T07:59:13.069782",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 255,
+        "matricula": "REG-1091"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "42766667",
+        "asiento": "7A",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": "REF-936607",
+      "monto": 3191.94,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-06-07T00:59:13.069782",
+    "codigoReserva": "WPZ8A5"
+  },
+  {
+    "id": "RES-039",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-3345",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-06-12T00:59:13.069840",
+      "fechaLlegada": "2025-06-12T06:59:13.069840",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 177,
+        "matricula": "REG-5220"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "34586280",
+        "asiento": "24D",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-415605",
+      "monto": 693.08,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-06-06T00:59:13.069840",
+    "codigoReserva": "7R88IJ"
+  },
+  {
+    "id": "RES-040",
+    "categoria": "Familiar",
+    "vuelo": {
+      "numero": "FL-1611",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-11T00:59:13.069891",
+      "fechaLlegada": "2025-06-11T04:59:13.069891",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 152,
+        "matricula": "REG-2603"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "49299568",
+        "asiento": "24A",
+        "clase": "Familiar"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 297.34,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-06-04T00:59:13.069891",
+    "codigoReserva": "2S65M6"
+  },
+  {
+    "id": "RES-041",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-1777",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-29T00:59:13.069933",
+      "fechaLlegada": "2025-06-29T07:59:13.069933",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 212,
+        "matricula": "REG-7572"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "40386836",
+        "asiento": "30D",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-822944",
+      "monto": 1504.53,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-06-11T00:59:13.069933",
+    "codigoReserva": "WM0ITI"
+  },
+  {
+    "id": "RES-042",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-2757",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-05-13T00:59:13.069980",
+      "fechaLlegada": "2025-05-13T04:59:13.069980",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 230,
+        "matricula": "REG-3432"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "26990564",
+        "asiento": "4A",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-931323",
+      "monto": 1626.41,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-03-21T00:59:13.069980",
+    "codigoReserva": "Z8ERW5"
+  },
+  {
+    "id": "RES-043",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-7530",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-06-17T00:59:13.070024",
+      "fechaLlegada": "2025-06-17T08:59:13.070024",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 292,
+        "matricula": "REG-7462"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "87089108",
+        "asiento": "22D",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 838.15,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-10T00:59:13.070024",
+    "codigoReserva": "GLZYEI"
+  },
+  {
+    "id": "RES-044",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-3754",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-04-24T00:59:13.070071",
+      "fechaLlegada": "2025-04-24T10:59:13.070071",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 184,
+        "matricula": "REG-1374"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "60662234",
+        "asiento": "8A",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-461576",
+      "monto": 2568.61,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-02T00:59:13.070071",
+    "codigoReserva": "WJE1Z7"
+  },
+  {
+    "id": "RES-045",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-4189",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-27T00:59:13.070133",
+      "fechaLlegada": "2025-05-27T10:59:13.070133",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 161,
+        "matricula": "REG-8517"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "55085626",
+        "asiento": "27B",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 2554.93,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-05T00:59:13.070133",
+    "codigoReserva": "ODSMBT"
+  },
+  {
+    "id": "RES-046",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-1178",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-30T00:59:13.071013",
+      "fechaLlegada": "2025-06-30T10:59:13.071013",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 210,
+        "matricula": "REG-8266"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "73997602",
+        "asiento": "5D",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-788151",
+      "monto": 2979.24,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-14T00:59:13.071013",
+    "codigoReserva": "WY70V5"
+  },
+  {
+    "id": "RES-047",
+    "categoria": "Aventura",
+    "vuelo": {
+      "numero": "FL-2197",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-30T00:59:13.071073",
+      "fechaLlegada": "2025-06-30T05:59:13.071073",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 158,
+        "matricula": "REG-1420"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "86310969",
+        "asiento": "5C",
+        "clase": "Aventura"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2871.64,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-21T00:59:13.071073",
+    "codigoReserva": "ZJVD68"
+  },
+  {
+    "id": "RES-048",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-3696",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-06-18T00:59:13.071130",
+      "fechaLlegada": "2025-06-18T07:59:13.071130",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 159,
+        "matricula": "REG-2085"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "77356954",
+        "asiento": "19D",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 1573.97,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-06-02T00:59:13.071130",
+    "codigoReserva": "ZIUXBK"
+  },
+  {
+    "id": "RES-049",
+    "categoria": "Familiar",
+    "vuelo": {
+      "numero": "FL-5249",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-06-25T00:59:13.071181",
+      "fechaLlegada": "2025-06-25T12:59:13.071181",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 260,
+        "matricula": "REG-6386"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "22423155",
+        "asiento": "15D",
+        "clase": "Familiar"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": "REF-360076",
+      "monto": 2122.22,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-06-09T00:59:13.071181",
+    "codigoReserva": "IVKDFS"
+  },
+  {
+    "id": "RES-050",
+    "categoria": "Aventura",
+    "vuelo": {
+      "numero": "FL-5263",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-04-28T00:59:13.071229",
+      "fechaLlegada": "2025-04-28T02:59:13.071229",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 296,
+        "matricula": "REG-9413"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "14067794",
+        "asiento": "10A",
+        "clase": "Aventura"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2695.31,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-03T00:59:13.071229",
+    "codigoReserva": "F351B4"
+  },
+  {
+    "id": "RES-051",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-4926",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-06-11T00:59:13.071269",
+      "fechaLlegada": "2025-06-11T06:59:13.071269",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 220,
+        "matricula": "REG-6088"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "35259566",
+        "asiento": "11A",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-856927",
+      "monto": 1631.72,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-30T00:59:13.071269",
+    "codigoReserva": "9SLEQJ"
+  },
+  {
+    "id": "RES-052",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-7359",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-06-06T00:59:13.071310",
+      "fechaLlegada": "2025-06-06T10:59:13.071310",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 175,
+        "matricula": "REG-2234"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "43393084",
+        "asiento": "20B",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 1175.79,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-23T00:59:13.071310",
+    "codigoReserva": "EGYJPO"
+  },
+  {
+    "id": "RES-053",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-7608",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-06-23T00:59:13.071350",
+      "fechaLlegada": "2025-06-23T08:59:13.071350",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 197,
+        "matricula": "REG-1294"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "30275269",
+        "asiento": "20D",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-343611",
+      "monto": 2621.24,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-28T00:59:13.071350",
+    "codigoReserva": "0X6FPR"
+  },
+  {
+    "id": "RES-054",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-3552",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-06-17T00:59:13.071403",
+      "fechaLlegada": "2025-06-17T07:59:13.071403",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 261,
+        "matricula": "REG-1962"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "16402637",
+        "asiento": "14C",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 2538.21,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-25T00:59:13.071403",
+    "codigoReserva": "TUNCUO"
+  },
+  {
+    "id": "RES-055",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-6829",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-05-23T00:59:13.071445",
+      "fechaLlegada": "2025-05-23T06:59:13.071445",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 245,
+        "matricula": "REG-8472"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "43234457",
+        "asiento": "14A",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-198575",
+      "monto": 659.25,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-15T00:59:13.071445",
+    "codigoReserva": "8YYLTA"
+  },
+  {
+    "id": "RES-056",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-5676",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-09T00:59:13.072339",
+      "fechaLlegada": "2025-06-09T08:59:13.072339",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 227,
+        "matricula": "REG-4888"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "57131438",
+        "asiento": "12C",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-990595",
+      "monto": 2773.31,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-28T00:59:13.072339",
+    "codigoReserva": "FEZO1J"
+  },
+  {
+    "id": "RES-057",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-4945",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-06-09T00:59:13.072402",
+      "fechaLlegada": "2025-06-09T07:59:13.072402",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 180,
+        "matricula": "REG-7851"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "94207864",
+        "asiento": "11D",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 2798.26,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-23T00:59:13.072402",
+    "codigoReserva": "Q2VBSD"
+  },
+  {
+    "id": "RES-058",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-5904",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-07-02T00:59:13.072453",
+      "fechaLlegada": "2025-07-02T11:59:13.072453",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 244,
+        "matricula": "REG-8698"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "11522222",
+        "asiento": "27C",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-506635",
+      "monto": 240.96,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-28T00:59:13.072453",
+    "codigoReserva": "STZ23K"
+  },
+  {
+    "id": "RES-059",
+    "categoria": "Turista",
+    "vuelo": {
+      "numero": "FL-5159",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-05-13T00:59:13.072497",
+      "fechaLlegada": "2025-05-13T08:59:13.072497",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 211,
+        "matricula": "REG-9502"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "27508853",
+        "asiento": "23B",
+        "clase": "Turista"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2438.74,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-15T00:59:13.072497",
+    "codigoReserva": "BBJLZZ"
+  },
+  {
+    "id": "RES-060",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-5799",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-07T00:59:13.072572",
+      "fechaLlegada": "2025-05-07T08:59:13.072572",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 221,
+        "matricula": "REG-4561"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "92225179",
+        "asiento": "16C",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2632.87,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-27T00:59:13.072572",
+    "codigoReserva": "KHQC9P"
+  },
+  {
+    "id": "RES-061",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-7011",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-04-17T00:59:13.072615",
+      "fechaLlegada": "2025-04-17T07:59:13.072615",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 246,
+        "matricula": "REG-9986"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "72499362",
+        "asiento": "29C",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2674.13,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-27T00:59:13.072615",
+    "codigoReserva": "IZZ5A6"
+  },
+  {
+    "id": "RES-062",
+    "categoria": "Negocios",
+    "vuelo": {
+      "numero": "FL-4279",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-06-16T00:59:13.072665",
+      "fechaLlegada": "2025-06-16T08:59:13.072665",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 257,
+        "matricula": "REG-2587"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "32761102",
+        "asiento": "27B",
+        "clase": "Negocios"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-154829",
+      "monto": 173.92,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-27T00:59:13.072665",
+    "codigoReserva": "2059FM"
+  },
+  {
+    "id": "RES-063",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-9228",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-06-11T00:59:13.072712",
+      "fechaLlegada": "2025-06-11T07:59:13.072712",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 187,
+        "matricula": "REG-2362"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "48095747",
+        "asiento": "20A",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 2638.69,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-15T00:59:13.072712",
+    "codigoReserva": "D93ZOL"
+  },
+  {
+    "id": "RES-064",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-9669",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-06-02T00:59:13.072753",
+      "fechaLlegada": "2025-06-02T11:59:13.072753",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 171,
+        "matricula": "REG-9972"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "75851027",
+        "asiento": "15B",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2434.49,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-10T00:59:13.072753",
+    "codigoReserva": "M9Y5IA"
+  },
+  {
+    "id": "RES-065",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-9759",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-04-12T00:59:13.072797",
+      "fechaLlegada": "2025-04-12T03:59:13.072797",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 267,
+        "matricula": "REG-5114"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "31751213",
+        "asiento": "2A",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 246.53,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-03-23T00:59:13.072797",
+    "codigoReserva": "PSEAI6"
+  },
+  {
+    "id": "RES-066",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-5036",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-04-28T00:59:13.072838",
+      "fechaLlegada": "2025-04-28T02:59:13.072838",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 253,
+        "matricula": "REG-4910"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "95496994",
+        "asiento": "6D",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 1032.18,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-03-28T00:59:13.072838",
+    "codigoReserva": "HLJW88"
+  },
+  {
+    "id": "RES-067",
+    "categoria": "Familiar",
+    "vuelo": {
+      "numero": "FL-1029",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-05-05T00:59:13.072882",
+      "fechaLlegada": "2025-05-05T07:59:13.072882",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 226,
+        "matricula": "REG-9960"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "59071261",
+        "asiento": "4C",
+        "clase": "Familiar"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 3063.46,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-12T00:59:13.072882",
+    "codigoReserva": "8X84KS"
+  },
+  {
+    "id": "RES-068",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-6483",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-04-20T00:59:13.072924",
+      "fechaLlegada": "2025-04-20T10:59:13.072924",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 271,
+        "matricula": "REG-3078"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "34846417",
+        "asiento": "11C",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-545016",
+      "monto": 1622.31,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-03T00:59:13.072924",
+    "codigoReserva": "EA4EU7"
+  },
+  {
+    "id": "RES-069",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-9693",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-05-11T00:59:13.072973",
+      "fechaLlegada": "2025-05-11T12:59:13.072973",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 285,
+        "matricula": "REG-7198"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "49440232",
+        "asiento": "18D",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-657315",
+      "monto": 1257.61,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-28T00:59:13.072973",
+    "codigoReserva": "DGQYFS"
+  },
+  {
+    "id": "RES-070",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-3688",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-05-06T00:59:13.073022",
+      "fechaLlegada": "2025-05-06T07:59:13.073022",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 273,
+        "matricula": "REG-5085"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "25893022",
+        "asiento": "20C",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 903.73,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-03-19T00:59:13.073022",
+    "codigoReserva": "2N2S3K"
+  },
+  {
+    "id": "RES-071",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-2161",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-07-04T00:59:13.073066",
+      "fechaLlegada": "2025-07-04T08:59:13.073066",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 271,
+        "matricula": "REG-2817"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "72590435",
+        "asiento": "9B",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-299177",
+      "monto": 2332.6,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-06-03T00:59:13.073066",
+    "codigoReserva": "GS23W8"
+  },
+  {
+    "id": "RES-072",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-7738",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-05-20T00:59:13.073122",
+      "fechaLlegada": "2025-05-20T10:59:13.073122",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 213,
+        "matricula": "REG-9965"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "31628227",
+        "asiento": "17B",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 3319.81,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-22T00:59:13.073122",
+    "codigoReserva": "Z6T4GW"
+  },
+  {
+    "id": "RES-073",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-3450",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-05-12T00:59:13.073165",
+      "fechaLlegada": "2025-05-12T06:59:13.073165",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 151,
+        "matricula": "REG-9531"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "34217590",
+        "asiento": "11D",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-875595",
+      "monto": 1354.76,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-06T00:59:13.073165",
+    "codigoReserva": "9VNQFK"
+  },
+  {
+    "id": "RES-074",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-5057",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-06-11T00:59:13.073208",
+      "fechaLlegada": "2025-06-11T10:59:13.073208",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 214,
+        "matricula": "REG-7045"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "20806931",
+        "asiento": "22C",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-545466",
+      "monto": 2578.34,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-06-05T00:59:13.073208",
+    "codigoReserva": "TKIRV8"
+  },
+  {
+    "id": "RES-075",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-6656",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-04-21T00:59:13.073335",
+      "fechaLlegada": "2025-04-21T11:59:13.073335",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 224,
+        "matricula": "REG-7832"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "22185337",
+        "asiento": "2A",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 3239.77,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-03T00:59:13.073335",
+    "codigoReserva": "DJAWJU"
+  },
+  {
+    "id": "RES-076",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-4381",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-06-08T00:59:13.073388",
+      "fechaLlegada": "2025-06-08T04:59:13.073388",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 252,
+        "matricula": "REG-8913"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "92656379",
+        "asiento": "13B",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3485.92,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-29T00:59:13.073388",
+    "codigoReserva": "CHS9LA"
+  },
+  {
+    "id": "RES-077",
+    "categoria": "Aventura",
+    "vuelo": {
+      "numero": "FL-3752",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-04-26T00:59:13.073431",
+      "fechaLlegada": "2025-04-26T02:59:13.073431",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 178,
+        "matricula": "REG-5031"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "28782772",
+        "asiento": "8C",
+        "clase": "Aventura"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": "REF-869523",
+      "monto": 1251.43,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-13T00:59:13.073431",
+    "codigoReserva": "KM40FR"
+  },
+  {
+    "id": "RES-078",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-4420",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-04-13T00:59:13.073481",
+      "fechaLlegada": "2025-04-13T10:59:13.073481",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 255,
+        "matricula": "REG-4184"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "49090591",
+        "asiento": "28B",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-547315",
+      "monto": 2209.67,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-04T00:59:13.073481",
+    "codigoReserva": "ZFZ5AZ"
+  },
+  {
+    "id": "RES-079",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-6342",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-23T00:59:13.075562",
+      "fechaLlegada": "2025-05-23T12:59:13.075562",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 168,
+        "matricula": "REG-8307"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "60345959",
+        "asiento": "6C",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 1719.73,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-10T00:59:13.075562",
+    "codigoReserva": "LSAXTQ"
+  },
+  {
+    "id": "RES-080",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-2758",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-04-12T00:59:13.075632",
+      "fechaLlegada": "2025-04-12T09:59:13.075632",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 151,
+        "matricula": "REG-2060"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "51164310",
+        "asiento": "10B",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 1685.4,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-04-01T00:59:13.075632",
+    "codigoReserva": "12H4Z7"
+  },
+  {
+    "id": "RES-081",
+    "categoria": "Aventura",
+    "vuelo": {
+      "numero": "FL-9398",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-06-22T00:59:13.075680",
+      "fechaLlegada": "2025-06-22T12:59:13.075680",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 234,
+        "matricula": "REG-7021"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "97775720",
+        "asiento": "27B",
+        "clase": "Aventura"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-674388",
+      "monto": 793.52,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-30T00:59:13.075680",
+    "codigoReserva": "XU2IRM"
+  },
+  {
+    "id": "RES-082",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-3102",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-04-10T00:59:13.075724",
+      "fechaLlegada": "2025-04-10T03:59:13.075724",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 221,
+        "matricula": "REG-1235"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "94990456",
+        "asiento": "9D",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 1770.32,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-03-21T00:59:13.075724",
+    "codigoReserva": "B8XDI3"
+  },
+  {
+    "id": "RES-083",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-5192",
+      "origen": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-05-13T00:59:13.075768",
+      "fechaLlegada": "2025-05-13T02:59:13.075768",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 165,
+        "matricula": "REG-2246"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "28963404",
+        "asiento": "25B",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-269499",
+      "monto": 194.72,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-13T00:59:13.075768",
+    "codigoReserva": "1PWGX3"
+  },
+  {
+    "id": "RES-084",
+    "categoria": "Premium",
+    "vuelo": {
+      "numero": "FL-1494",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-06-23T00:59:13.075815",
+      "fechaLlegada": "2025-06-23T11:59:13.075815",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 169,
+        "matricula": "REG-8131"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "91166345",
+        "asiento": "3A",
+        "clase": "Premium"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-652375",
+      "monto": 1462.14,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-16T00:59:13.075815",
+    "codigoReserva": "QPAW6Y"
+  },
+  {
+    "id": "RES-085",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-1114",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-04-19T00:59:13.075860",
+      "fechaLlegada": "2025-04-19T04:59:13.075860",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 247,
+        "matricula": "REG-5753"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "20205945",
+        "asiento": "1C",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2691.01,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-04T00:59:13.075860",
+    "codigoReserva": "W4HME0"
+  },
+  {
+    "id": "RES-086",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-8018",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-05-06T00:59:13.075905",
+      "fechaLlegada": "2025-05-06T07:59:13.075905",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 191,
+        "matricula": "REG-4588"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "49173046",
+        "asiento": "3C",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 1111.41,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-20T00:59:13.075905",
+    "codigoReserva": "YEAP3U"
+  },
+  {
+    "id": "RES-087",
+    "categoria": "Romántica",
+    "vuelo": {
+      "numero": "FL-1172",
+      "origen": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "destino": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "fechaSalida": "2025-06-02T00:59:13.075947",
+      "fechaLlegada": "2025-06-02T07:59:13.075947",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 183,
+        "matricula": "REG-4302"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "61387612",
+        "asiento": "20D",
+        "clase": "Romántica"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-979800",
+      "monto": 2801.53,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-04-05T00:59:13.075947",
+    "codigoReserva": "A7SSC6"
+  },
+  {
+    "id": "RES-088",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-6052",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-05-05T00:59:13.075988",
+      "fechaLlegada": "2025-05-05T12:59:13.075988",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 193,
+        "matricula": "REG-4728"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "79467731",
+        "asiento": "12A",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 3151.62,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-18T00:59:13.075988",
+    "codigoReserva": "PSSZOD"
+  },
+  {
+    "id": "RES-089",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-1398",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-04-21T00:59:13.076046",
+      "fechaLlegada": "2025-04-21T07:59:13.076046",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 192,
+        "matricula": "REG-5884"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "53830092",
+        "asiento": "16D",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-893616",
+      "monto": 2465.02,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-02-23T00:59:13.076046",
+    "codigoReserva": "D565P8"
+  },
+  {
+    "id": "RES-090",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-3895",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "MIA",
+        "ciudad": "Miami",
+        "pais": "EE.UU."
+      },
+      "fechaSalida": "2025-04-29T00:59:13.076085",
+      "fechaLlegada": "2025-04-29T03:59:13.076085",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 166,
+        "matricula": "REG-3706"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Juan Pérez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "47195186",
+        "asiento": "19D",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-702935",
+      "monto": 1196.23,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-03-26T00:59:13.076085",
+    "codigoReserva": "13IAS3"
+  },
+  {
+    "id": "RES-091",
+    "categoria": "Negocios",
+    "vuelo": {
+      "numero": "FL-2387",
+      "origen": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-07-04T00:59:13.076137",
+      "fechaLlegada": "2025-07-04T09:59:13.076137",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 175,
+        "matricula": "REG-3416"
+      },
+      "aerolinea": "LATAM"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "47974271",
+        "asiento": "9C",
+        "clase": "Negocios"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 179.57,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-05-11T00:59:13.076137",
+    "codigoReserva": "9VJYOD"
+  },
+  {
+    "id": "RES-092",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-2530",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "MAD",
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "fechaSalida": "2025-06-20T00:59:13.076179",
+      "fechaLlegada": "2025-06-20T06:59:13.076179",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 153,
+        "matricula": "REG-7007"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "28279810",
+        "asiento": "26D",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": "REF-856595",
+      "monto": 3044.53,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-01T00:59:13.076179",
+    "codigoReserva": "038NP2"
+  },
+  {
+    "id": "RES-093",
+    "categoria": "Mochilero",
+    "vuelo": {
+      "numero": "FL-1196",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-05-29T00:59:13.076225",
+      "fechaLlegada": "2025-05-29T07:59:13.076225",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 297,
+        "matricula": "REG-7746"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "94648399",
+        "asiento": "8A",
+        "clase": "Mochilero"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": null,
+      "monto": 910.47,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-24T00:59:13.076225",
+    "codigoReserva": "SQI8O9"
+  },
+  {
+    "id": "RES-094",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-8749",
+      "origen": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "destino": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "fechaSalida": "2025-05-19T00:59:13.076274",
+      "fechaLlegada": "2025-05-19T10:59:13.076274",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 245,
+        "matricula": "REG-8468"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "22096890",
+        "asiento": "27D",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2440.61,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-05T00:59:13.076274",
+    "codigoReserva": "7H5K9Q"
+  },
+  {
+    "id": "RES-095",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-8589",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "fechaSalida": "2025-04-13T00:59:13.076317",
+      "fechaLlegada": "2025-04-13T12:59:13.076317",
+      "avion": {
+        "modelo": "Airbus A320",
+        "capacidad": 222,
+        "matricula": "REG-4411"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "21910544",
+        "asiento": "30C",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": null,
+      "referencia": "REF-535503",
+      "monto": 2860.0,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-03-13T00:59:13.076317",
+    "codigoReserva": "ZVYAW0"
+  },
+  {
+    "id": "RES-096",
+    "categoria": "Económica",
+    "vuelo": {
+      "numero": "FL-7675",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "fechaSalida": "2025-05-09T00:59:13.076366",
+      "fechaLlegada": "2025-05-09T12:59:13.076366",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 258,
+        "matricula": "REG-3725"
+      },
+      "aerolinea": "American Airlines"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "53740196",
+        "asiento": "6A",
+        "clase": "Económica"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 2357.24,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-03-22T00:59:13.076366",
+    "codigoReserva": "A0QVCN"
+  },
+  {
+    "id": "RES-097",
+    "categoria": "Lujo",
+    "vuelo": {
+      "numero": "FL-7025",
+      "origen": {
+        "codigo": "CDG",
+        "ciudad": "París",
+        "pais": "Francia"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-07-03T00:59:13.076410",
+      "fechaLlegada": "2025-07-03T04:59:13.076410",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 251,
+        "matricula": "REG-7506"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "62251779",
+        "asiento": "24C",
+        "clase": "Lujo"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-538217",
+      "monto": 602.31,
+      "moneda": "USD",
+      "estado": "Fallido"
+    },
+    "estado": "Cancelada",
+    "fechaReserva": "2025-05-13T00:59:13.076410",
+    "codigoReserva": "2U25U1"
+  },
+  {
+    "id": "RES-098",
+    "categoria": "Deportiva",
+    "vuelo": {
+      "numero": "FL-2194",
+      "origen": {
+        "codigo": "EZE",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-06-21T00:59:13.076457",
+      "fechaLlegada": "2025-06-21T02:59:13.076457",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 153,
+        "matricula": "REG-8131"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Ana Gómez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "90960039",
+        "asiento": "3D",
+        "clase": "Deportiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-667983",
+      "monto": 3088.21,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "En espera de pago",
+    "fechaReserva": "2025-05-26T00:59:13.076457",
+    "codigoReserva": "AGE1EI"
+  },
+  {
+    "id": "RES-099",
+    "categoria": "Cultural",
+    "vuelo": {
+      "numero": "FL-5104",
+      "origen": {
+        "codigo": "GRU",
+        "ciudad": "São Paulo",
+        "pais": "Brasil"
+      },
+      "destino": {
+        "codigo": "LIM",
+        "ciudad": "Lima",
+        "pais": "Perú"
+      },
+      "fechaSalida": "2025-04-23T00:59:13.076518",
+      "fechaLlegada": "2025-04-23T08:59:13.076518",
+      "avion": {
+        "modelo": "Boeing 737",
+        "capacidad": 164,
+        "matricula": "REG-7971"
+      },
+      "aerolinea": "Avianca"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Lucía Martínez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "79028283",
+        "asiento": "23B",
+        "clase": "Cultural"
+      }
+    ],
+    "pago": {
+      "metodo": "Tarjeta de crédito",
+      "numeroTarjeta": "**** **** **** 1234",
+      "referencia": null,
+      "monto": 417.07,
+      "moneda": "USD",
+      "estado": "Pendiente"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-15T00:59:13.076518",
+    "codigoReserva": "PTDBUJ"
+  },
+  {
+    "id": "RES-100",
+    "categoria": "Ejecutiva",
+    "vuelo": {
+      "numero": "FL-4827",
+      "origen": {
+        "codigo": "BOG",
+        "ciudad": "Bogotá",
+        "pais": "Colombia"
+      },
+      "destino": {
+        "codigo": "SCL",
+        "ciudad": "Santiago",
+        "pais": "Chile"
+      },
+      "fechaSalida": "2025-05-29T00:59:13.078409",
+      "fechaLlegada": "2025-05-29T03:59:13.078409",
+      "avion": {
+        "modelo": "Boeing 787",
+        "capacidad": 256,
+        "matricula": "REG-8117"
+      },
+      "aerolinea": "Air France"
+    },
+    "pasajeros": [
+      {
+        "nombre": "Carlos Rodríguez",
+        "tipoDocumento": "Pasaporte",
+        "numeroDocumento": "26663122",
+        "asiento": "24D",
+        "clase": "Ejecutiva"
+      }
+    ],
+    "pago": {
+      "metodo": "Transferencia bancaria",
+      "numeroTarjeta": null,
+      "referencia": "REF-350061",
+      "monto": 282.53,
+      "moneda": "USD",
+      "estado": "Completado"
+    },
+    "estado": "Confirmada",
+    "fechaReserva": "2025-04-05T00:59:13.078409",
+    "codigoReserva": "TUH9T2"
+  }
+]
