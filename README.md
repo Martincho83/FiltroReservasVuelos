@@ -1,12 +1,11 @@
-# Mundo UI
+# 🛫 Filtro de Reservas de Vuelo
 
-Proyecto que suar React + TypeScript + Vite + Material UI para usar de ejemplo de como se van a comunicar una UI con un Back End y de paso aprender varias cosas de javascript
+Aplicación React para gestionar y filtrar reservas de vuelo con interfaz intuitiva y capacidades avanzadas de filtrado.
 
-## Demo
+## Vista Principal
 
-![](./paises.gif)
+![](./public/Captura.png)
 
-Aquí tienes un resumen para el archivo README.md que describe el trabajo realizado en el proyecto "Gestión Mundo":
 
 ---
 
@@ -18,61 +17,116 @@ Integrantes:
 - Sandra Romero
 - Martín Alejandro Lamas
 
-# **Tarea (2-4)**
 
-Este proyecto es una aplicación desarrollada en React y TypeScript que permite visualizar información detallada de países utilizando datos de la API de Rest Countries. La aplicación ha sido adaptada para trabajar con la nueva versión de la API (`https://restcountries.com/v3.1/all`) y se han incorporado nuevas funcionalidades y mejoras.
 
 ---
 
-## **Características Principales**
-- **Visualización de países:** Muestra información detallada de cada país, incluyendo:
-  - Nombre común y oficial.
-  - Bandera.
-  - Área en kilómetros cuadrados.
-  - Continente.
-  - Población.
-  - Zonas horarias.
-  - Países limítrofes.
-- **Filtrado por subregión:** Permite filtrar los países por subregión geográfica.
-- **Interfaz interactiva:** Diseño responsivo utilizando Material-UI.
+## 🚀 Características principales
+
+- **Filtrado avanzado** por múltiples categorías simultáneamente
+- **Visualización detallada** de cada reserva con todos los datos relevantes
+- **Diseño responsive** que funciona en cualquier dispositivo
+- **Interfaz intuitiva** con Material-UI
+- **Gestión de estados** de reserva y pagos
+- **Formato profesional** de fechas y datos
+
+## 🛠 Tecnologías utilizadas
+
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?logo=typescript)
+![MaterialUI](https://img.shields.io/badge/Material--UI-5.14.0-blue?logo=mui)
+![date-fns](https://img.shields.io/badge/date--fns-2.30.0-green)
+![Vite](https://img.shields.io/badge/Vite-4.4.0-yellow?logo=vite)
 
 ---
 
-## **Cambios Realizados**
-1. **Migración de datos:**
-   - Se migraron los datos de la API antigua a un archivo local `paises2.json`.
-   - Se corrigieron inconsistencias en los datos y se validó su estructura.
+## 🎨 Componentes principales
 
-2. **Incorporación de nuevos atributos:**
-   - **A nivel cabecera:** Se agregó el área del país.
-   - **A nivel detalle:** Se agregaron las zonas horarias y los países limítrofes.
+### `CardCountry.tsx`
+Tarjeta detallada que muestra:
+- Información completa del vuelo
+- Datos de pasajeros
+- Estado de pago
+- Categoría de reserva
+- Fechas formateadas profesionalmente
 
-3. **Corrección de errores:**
-   - Se manejaron valores `undefined` en propiedades opcionales como `borders`, `nativeName`, y `idd`.
-   - Se filtraron países con datos incompletos para evitar errores al renderizar.
+### `Filters.tsx`
+Componente de filtrado con:
+- Selección múltiple de categorías
+- Chips visuales para selecciones
+- Diseño adaptable
 
-4. **Mejoras en el código:**
-   - Se actualizó el tipo `Country` para incluir todas las propiedades necesarias.
-   - Se implementaron buenas prácticas de desarrollo con TypeScript y React.
+### `ListCardReservas.tsx`
+Listado principal que:
+- Gestiona el estado de los filtros
+- Muestra las reservas filtradas
+- Layout responsive en grid
 
----
+## 🌟 Ejemplo de datos
 
-## **Estructura del Proyecto**
-- **`public/data/paises2.json`:** Archivo JSON con los datos de los países.
-- **components:** Contiene los componentes principales:
-  - `CardCountry`: Muestra la información detallada de un país.
-  - `ListCardCountry`: Lista los países y permite aplicar filtros.
-  - `Filters`: Permite filtrar los países por subregión.
-  - `Country`: Define el tipo `Country` utilizado en la aplicación.
+```json
+{
+  "id": "RES-001",
+  "categoria": "Premium",
+  "vuelo": {
+    "numero": "FL-2130",
+    "origen": {
+      "codigo": "MIA",
+      "ciudad": "Miami",
+      "pais": "EE.UU."
+    },
+    "destino": {
+      "codigo": "GRU",
+      "ciudad": "São Paulo",
+      "pais": "Brasil"
+    },
+    "fechaSalida": "2025-04-16T00:59:13.063657",
+    "fechaLlegada": "2025-04-16T03:59:13.063657",
+    "avion": {
+      "modelo": "Airbus A320",
+      "capacidad": 283,
+      "matricula": "REG-2436"
+    },
+    "aerolinea": "Avianca"
+  },
+  "pasajeros": [
+    {
+      "nombre": "Carlos Rodríguez",
+      "tipoDocumento": "Pasaporte",
+      "numeroDocumento": "29093046",
+      "asiento": "11D",
+      "clase": "Premium"
+    }
+  ],
+  "pago": {
+    "metodo": "Tarjeta de crédito",
+    "numeroTarjeta": null,
+    "referencia": null,
+    "monto": 3212.58,
+    "moneda": "USD",
+    "estado": "Fallido"
+  },
+  "estado": "En espera de pago",
+  "fechaReserva": "2025-03-14T00:59:13.063657",
+  "codigoReserva": "DTYXQ9"
+}
+```
 
----
+--- 
+
+
+
 
 ## **Capturas de Pantalla**
-### Vista Principal
-![Vista Principal](./principal.png)
+### Filtrar por Categoría
+![Filtrar](./public/FiltrarCategoria.png)
 
-### Detalle de un País
+### Detalle de Reserva
 
-![Detalle de un País](./pais.png)
+![Detalle de Reserva](./public/DetalleReserva.png)
+
+### Detalle de Pasajero e Informacion de Pago
+
+![Detalle Pasajero e Info Pago](./public/pasajeroPago.png)
 
 ---
